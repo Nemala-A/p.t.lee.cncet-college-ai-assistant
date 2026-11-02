@@ -1,0 +1,11 @@
+
+
+.venv312/
+venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+*.mp3
+*.webm
+

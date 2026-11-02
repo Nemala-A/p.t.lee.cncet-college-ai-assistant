@@ -1,0 +1,163 @@
+
+P.T. LEE CHENGALVARAYA NAICKER COLLEGE OF ENGINEERING AND TECHNOLOGY
+FACULTY DIRECTORY
+Source: Official College Faculty Details PDF
+Location: Oovery, Kanchipuram, Tamil Nadu
+
+========================================
+1. ARTIFICIAL INTELLIGENCE AND DATA SCIENCE
+========================================
+
+1. Mr. Muralikrishnan M — Assistant Professor
+2. Mr. Ganesan Subramaniyam — Assistant Professor
+3. Mrs. Vasanthapriya M — Assistant Professor
+4. Mrs. VijayanSanthi Mathiyalgan — Assistant Professor
+5. Mrs. Vishva Bharathi P.M — Assistant Professor
+6. Ms. Dhatchayani E — Assistant Professor
+
+========================================
+2. COMPUTER SCIENCE AND ENGINEERING
+========================================
+
+1. Dr. Gnanasekar Arcot Krishnan — Professor
+2. Mrs. Indrakumari M — Assistant Professor
+3. Mrs. Kanchanamala P — Assistant Professor
+4. Mrs. Deepa D — Assistant Professor
+5. Mrs. Arunlakshmi R — Assistant Professor
+6. Mrs. Sumi Karunanithi — Assistant Professor
+7. Mr. Lakshmi Narasimhan G — Assistant Professor
+8. Mrs. Deepika C — Assistant Professor
+9. Mrs. Prabhavathi Jayaseelan — Assistant Professor
+10. Mr. Ramkumar Kaveripakkam Rajendran — Assistant Professor
+11. Mr. Sundarraj V — Assistant Professor
+12. Mr. Elayaraja D — Assistant Professor
+13. Mr. Mohandas E — Assistant Professor
+14. Mrs. Usha Rani S — Assistant Professor
+
+========================================
+3. ELECTRONICS AND COMMUNICATION ENGINEERING
+========================================
+
+1. Dr. Karthikayen A — Professor
+2. Dr. S. Parasuraman — Associate Professor
+3. Mr. Prabakaran Selvaraj — Assistant Professor
+4. Dr. S. Mohanraj — Assistant Professor
+5. Dr. R. Mamallan — Assistant Professor
+6. Mr. Kamalakkannan P — Assistant Professor
+7. Mrs. A. Sujitha — Assistant Professor
+8. Mrs. Menaka A — Assistant Professor
+
+========================================
+4. ELECTRICAL AND ELECTRONICS ENGINEERING
+========================================
+
+1. Dr. Venkatesan K — Associate Professor
+2. Dr. Mani P.K. — Associate Professor
+3. Dr. Jayanthi R — Associate Professor
+4. Dr. Raja Pagalavan B — Assistant Professor
+5. Mrs. Gomathy K — Assistant Professor
+6. Mrs. Poonkodi K — Assistant Professor
+7. Dr. Ragupathi C — Assistant Professor
+8. Mr. Bharani M — Assistant Professor
+9. Mrs. Manimegalai S — Assistant Professor
+
+========================================
+5. INFORMATION TECHNOLOGY
+========================================
+
+1. Mr. Kamalanathan E — Assistant Professor
+2. Mrs. R. Leelavathi — Assistant Professor
+3. Mr. Rathinavel U — Assistant Professor
+4. Mr. Poovannan Mohanam — Assistant Professor
+5. Mrs. Sathya Elumalai — Assistant Professor
+6. Mrs. Vidhya A — Assistant Professor
+7. Mrs. Karthiyaeni R — Assistant Professor
+
+========================================
+6. MECHANICAL ENGINEERING
+========================================
+
+1. Dr. P. Palanisamy — Principal and Professor
+2. Dr. S. Boopathi — Professor
+3. Mr. R. Ramesh Babu — Assistant Professor
+4. Mr. N. Prakash — Assistant Professor
+5. Dr. N. Krishnamoorthy — Assistant Professor
+6. Mr. S. Dhivakar — Assistant Professor
+7. Mr. K. Anbumani — Assistant Professor
+8. Mr. C.P. Murugan — Assistant Professor
+9. Dr. T. Mohankumar — Assistant Professor
+
+========================================
+7. SCIENCE AND HUMANITIES / GENERAL ENGINEERING
+========================================
+
+1. Dr. Suresh Kumar K — Professor
+   Subject: Physics
+
+2. Dr. Balakrishnan B — Associate Professor
+   Subject: Physics
+
+3. Dr. Siddharthan N — Assistant Professor
+   Subject: Physics
+
+4. Dr. Ilayaraja P — Assistant Professor
+   Subject: Physics
+
+5. Mr. Rajababu S — Assistant Professor
+   Subject: Mathematics
+
+6. Mr. Nagaraj A — Assistant Professor
+   Subject: Mathematics
+
+7. Mrs. Lavanya M — Assistant Professor
+   Subject: Mathematics
+
+8. Dr. Chandramohan Ayyavu — Professor
+   Subject: Chemistry
+
+9. Dr. Ranganathan Kaliyaperumal — Associate Professor
+   Subject: Chemistry
+
+10. Dr. Sridevi S — Assistant Professor
+    Subject: Chemistry
+
+11. Dr. Ezhilarasu D — Assistant Professor
+    Subject: Chemistry
+
+12. Dr. Revathi R — Assistant Professor
+    Subject: English
+
+13. Mrs. M.K. Anitha — Assistant Professor
+    Subject: English
+
+14. Dr. Srinivasan E — Assistant Professor
+    Subject: Tamil
+
+15. Dr. P. Rajasekaran — Assistant Professor
+    Subject: General Engineering
+
+16. Mr. Prasanna E — Assistant Professor
+    Subject: General Engineering
+
+17. Mr. Sathiyaraj P — Assistant Professor
+    Subject: General Engineering
+
+18. Mrs. Kowsalya V — Assistant Professor
+    Subject: General Engineering
+
+19. Mr. Gowtham Murugan — Assistant Professor
+    Subject: General Engineering
+
+========================================
+IMPORTANT INFORMATION FOR THE AI ASSISTANT
+========================================
+
+- Use this file to answer faculty name and designation questions.
+- Match faculty questions with the relevant department.
+- If a student asks who the principal is, answer Dr. P. Palanisamy.
+- Do not invent faculty email addresses, phone numbers, qualifications, or specializations.
+- The source PDF contains AU-FIN and AICTE IDs, but these have not been reproduced in this simplified directory.
+- For official verification, use the college Faculty Details PDF:
+https://ptleecncet.com/ptleecncet_2026/assets/images/faculty_pdf/Faculty%20Details_5115_1226.pdf
+
+developer of this college assistant : Nemala Amarenthiran or A.Nemala B.E

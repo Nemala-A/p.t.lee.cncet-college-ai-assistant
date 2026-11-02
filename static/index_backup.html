@@ -1,0 +1,474 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College AI Assistant | PTL CNCET</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --navy: #142b4a;
+            --blue: #2459a9;
+            --teal: #1e9b91;
+            --bg: #f5f7fb;
+            --text: #202b3c;
+            --muted: #788397;
+            --border: #e5eaf2;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                         sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+        }
+
+        .app {
+            display: flex;
+            min-height: 100vh;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 260px;
+            background: var(--navy);
+            color: white;
+            padding: 28px 18px;
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 0 8px 28px;
+            border-bottom: 1px solid #ffffff20;
+        }
+
+        .brand-logo {
+            width: 44px;
+            height: 44px;
+            border-radius: 13px;
+            display: grid;
+            place-items: center;
+            background: #ffffff;
+            color: var(--navy);
+            font-weight: 800;
+            font-size: 16px;
+        }
+
+        .brand h2 {
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .brand p {
+            color: #b9c8dc;
+            font-size: 11px;
+            margin-top: 3px;
+        }
+
+        .nav-label {
+            color: #aabbd2;
+            font-size: 10px;
+            letter-spacing: 1.5px;
+            margin: 30px 10px 12px;
+        }
+
+        .nav-item {
+            width: 100%;
+            border: 0;
+            color: #dbe4f0;
+            background: transparent;
+            padding: 13px 12px;
+            margin: 3px 0;
+            border-radius: 10px;
+            text-align: left;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .nav-item:hover,
+        .nav-item.active {
+            background: #ffffff18;
+            color: white;
+        }
+
+        .sidebar-bottom {
+            margin-top: auto;
+            border-top: 1px solid #ffffff20;
+            padding: 20px 8px 0;
+            color: #b9c8dc;
+            font-size: 12px;
+            line-height: 1.8;
+        }
+
+        .status-dot {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #47d5a0;
+            margin-right: 7px;
+        }
+
+        /* Main content */
+        .main {
+            flex: 1;
+            min-width: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .topbar {
+            min-height: 82px;
+            padding: 18px 36px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: white;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .topbar h1 {
+            color: var(--navy);
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        .topbar p {
+            color: var(--muted);
+            font-size: 12px;
+            margin-top: 5px;
+        }
+
+        .online {
+            color: #16876f;
+            background: #e9f8f2;
+            padding: 8px 12px;
+            border-radius: 30px;
+            font-size: 12px;
+            white-space: nowrap;
+        }
+
+        .content {
+            width: 100%;
+            max-width: 1050px;
+            margin: 0 auto;
+            padding: 34px 32px 20px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .welcome {
+            margin: 12px 0 28px;
+        }
+
+        .eyebrow {
+            color: var(--blue);
+            text-transform: uppercase;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            margin-bottom: 12px;
+        }
+
+        .welcome h2 {
+            font-size: clamp(26px, 4vw, 36px);
+            line-height: 1.25;
+            letter-spacing: -1px;
+            color: var(--navy);
+        }
+
+        .welcome p {
+            color: var(--muted);
+            font-size: 14px;
+            line-height: 1.7;
+            margin-top: 12px;
+        }
+
+        /* Suggested questions */
+        .suggestions-title {
+            font-size: 12px;
+            color: #69778b;
+            margin-bottom: 13px;
+            font-weight: 600;
+        }
+
+        .suggestions {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        .suggestion {
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 18px;
+            text-align: left;
+            cursor: pointer;
+            transition: border-color .2s, transform .2s;
+        }
+
+        .suggestion:hover {
+            border-color: #9ab7e5;
+            transform: translateY(-2px);
+        }
+
+        .suggestion-icon {
+            width: 36px;
+            height: 36px;
+            border-radius: 10px;
+            background: #edf3ff;
+            display: grid;
+            place-items: center;
+            font-size: 18px;
+            margin-bottom: 12px;
+        }
+
+        .suggestion strong {
+            display: block;
+            color: var(--navy);
+            font-size: 14px;
+        }
+
+        .suggestion span:last-child {
+            display: block;
+            color: var(--muted);
+            font-size: 12px;
+            margin-top: 6px;
+            line-height: 1.5;
+        }
+
+        /* Chat messages */
+        .chat {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+            padding-bottom: 20px;
+        }
+
+        .message {
+            max-width: 85%;
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+        }
+
+        .message.user {
+            align-self: flex-end;
+            flex-direction: row-reverse;
+        }
+
+        .avatar {
+            width: 34px;
+            height: 34px;
+            border-radius: 11px;
+            display: grid;
+            place-items: center;
+            flex-shrink: 0;
+            background: #e6edf9;
+            color: var(--navy);
+            font-size: 12px;
+            font-weight: 800;
+        }
+
+        .user .avatar {
+            background: var(--blue);
+            color: white;
+        }
+
+        .bubble {
+            padding: 13px 16px;
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: 4px 15px 15px 15px;
+            font-size: 14px;
+            line-height: 1.7;
+            white-space: pre-wrap;
+            overflow-wrap: anywhere;
+        }
+
+        .user .bubble {
+            background: var(--blue);
+            border-color: var(--blue);
+            color: white;
+            border-radius: 15px 4px 15px 15px;
+        }
+
+        .typing {
+            color: var(--muted);
+            font-size: 13px;
+            padding: 8px 0;
+        }
+
+        /* Message input */
+        .composer-area {
+            margin-top: auto;
+            padding-top: 12px;
+        }
+
+        .composer {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            background: white;
+            border: 1px solid #dce3ed;
+            padding: 8px 9px 8px 18px;
+            border-radius: 16px;
+            box-shadow: 0 8px 30px #203b5b0a;
+        }
+
+        .composer:focus-within {
+            border-color: #8caee5;
+        }
+
+        .composer input {
+            flex: 1;
+            min-width: 0;
+            border: 0;
+            outline: 0;
+            font-size: 14px;
+            padding: 11px 0;
+            background: transparent;
+            color: var(--text);
+        }
+
+        .composer input::placeholder {
+            color: #9aa5b5;
+        }
+
+        .send {
+            width: 44px;
+            height: 44px;
+            border: 0;
+            border-radius: 12px;
+            color: white;
+            background: var(--blue);
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .send:hover {
+            background: var(--navy);
+        }
+
+        .send:disabled {
+            opacity: .55;
+            cursor: not-allowed;
+        }
+
+        .disclaimer {
+            text-align: center;
+            color: #8a95a6;
+            font-size: 11px;
+            line-height: 1.6;
+            margin: 12px 0 2px;
+        }
+
+        @media (max-width: 700px) {
+            .sidebar {
+                display: none;
+            }
+
+            .topbar {
+                padding: 16px 20px;
+                min-height: 72px;
+            }
+
+            .topbar h1 {
+                font-size: 17px;
+            }
+
+            .content {
+                padding: 24px 18px 16px;
+            }
+
+            .welcome {
+                margin-top: 8px;
+            }
+
+            .suggestions {
+                grid-template-columns: 1fr;
+            }
+
+            .message {
+                max-width: 95%;
+            }
+
+            .online {
+                font-size: 0;
+                padding: 8px;
+            }
+
+            .online .status-dot {
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<div class="app">
+
+    <aside class="sidebar">
+        <div class="brand">
+            <div class="brand-logo">PTL</div>
+            <div>
+                <h2>College AI Assistant</h2>
+                <p>PTL CNCET · Student Help</p>
+            </div>
+        </div>
+
+        <p class="nav-label">MENU</p>
+
+        <button class="nav-item active" id="chatNav">✦ &nbsp; Chat Assistant</button>
+        <button class="nav-item" data-question="What courses does our college offer?">▤ &nbsp; Courses</button>
+        <button class="nav-item" data-question="Tell me about admissions.">↗ &nbsp; Admissions</button>
+        <button class="nav-item" data-question="What is our college principal name?">♙ &nbsp; Principal</button>
+        <button class="nav-item" data-question="What are the college contact details?">✉ &nbsp; Contact Details</button>
+
+        <div class="sidebar-bottom">
+            <div><span class="status-dot"></span>Assistant interface</div>
+            <p>College information assistant</p>
+        </div>
+    </aside>
+
+    <main class="main">
+        <header class="topbar">
+            <div>
+                <h1>College AI Assistant</h1>
+                <p>P.T. Lee Chengalvaraya Naicker College of Engineering &amp; Technology</p>
+            </div>
+            <div class="online"><span class="status-dot"></span>Ready to chat</div>
+        </header>
+
+        <section class="content">
+            <div class="welcome" id="welcome">
+                <div class="eyebrow">Your campus companion</div>
+                <h2>Hello! How can I help you today?</h2>
+                <p>Ask a question about your college. I can help you find information<br class="desktop-break">
+                about courses, admissions, the principal and contact details.</p>
+            </div>
+
+            <div class="suggestions-title" id="suggestionsTitle">QUICK QUESTIONS</div>
+
+            <div class="suggestions" id="suggestions">
+                <button class="suggestion" data-question="What courses does our college offer?">
+                    <span class="suggestion-icon">🎓</span>
+                    <strong>Courses Offered</strong>
+                    

@@ -1,0 +1,196 @@
+P.T. LEE CHENGALVARAYA NAICKER COLLEGE OF ENGINEERING & TECHNOLOGY
+COLLEGE AI ASSISTANT KNOWLEDGE BASE
+Source: Official college website https://ptleecncet.com/ptleecncet_2026/
+Prepared: 14 October 2026
+
+IMPORTANT NOTES FOR THE AI ASSISTANT
+- Answer using the information in this file.
+- Do not guess missing information.
+- For current fees, admission deadlines, intake, scholarships, placement statistics, transport routes, and contact details, advise the student to confirm with the college if the information may have changed.
+- The official website contains some inconsistent details. Do not present conflicting figures as certain; ask the student to verify with the college.
+- Event dates may change. Confirm current event information on the official website.
+- Answer in the same language as the student: Tamil, Tanglish, or English.
+
+COLLEGE NAME
+P.T. Lee Chengalvaraya Naicker College of Engineering & Technology
+
+ADDRESS
+Oovery, Kanchipuram, Tamil Nadu - 631502, India
+
+LOCATION DETAILS
+The official website says the college is in Oovery, approximately 8 km from Kancheepuram and 18 km from Arakkonam.
+
+WEBSITE
+https://ptleecncet.com/ptleecncet_2026/
+
+AFFILIATION
+Affiliated to Anna University, Chennai.
+
+APPROVAL
+Approved by AICTE, New Delhi.
+
+TNEA COUNSELLING CODE
+1226
+
+PRINCIPAL
+The official website lists Dr. P. Palanisamy, M.E., Ph.D. as Principal.
+
+CONTACT DETAILS
+Phone: +91 7373123570
+Phone: +91 9500701226
+Principal email listed on the website: principal@ptleecncet.com
+The website also lists office@ptleecncet.com as an office email.
+Confirm the latest contact information on the official website.
+
+ABOUT THE COLLEGE
+The college website describes the institution as a private, self-financed college affiliated to Anna University and approved by AICTE. It says the college aims to provide technical education, especially to people from poor and disadvantaged backgrounds.
+
+ESTABLISHMENT DATE NOTE
+The official website has inconsistent establishment information: one section says ESTD 2001, another says Established 2004, and a history section says established in 1998. Do not give one establishment year as certain; explain that the website shows conflicting years and advise checking with the college.
+
+COURSES OFFERED
+The website lists these six undergraduate engineering programmes:
+1. B.E. Computer Science and Engineering (CSE)
+2. B.Tech Information Technology (IT)
+3. B.Tech Artificial Intelligence and Data Science (AI&DS)
+4. B.E. Electronics and Communication Engineering (ECE)
+5. B.E. Electrical and Electronics Engineering (EEE)
+6. B.E. Mechanical Engineering
+
+COURSE DURATION AND INTAKE SHOWN ON THE WEBSITE
+- B.E. Computer Science and Engineering: 4 years; intake 120 students.
+- B.Tech Information Technology: 4 years; intake 60 students.
+- B.Tech Artificial Intelligence and Data Science: 4 years; intake 60 students.
+- B.E. Electronics and Communication Engineering: 4 years; intake 60 students.
+- B.E. Electrical and Electronics Engineering: 4 years; intake 60 students.
+- B.E. Mechanical Engineering: 4 years; intake 60 students.
+IMPORTANT: Intake can change by academic year. Confirm current approved intake with the college.
+
+PROGRAMME HIGHLIGHTS FROM THE WEBSITE
+
+B.E. COMPUTER SCIENCE AND ENGINEERING
+- Foundations of computer science.
+- Algorithms, databases, and programming.
+- Electives in emerging technologies.
+- Industry-sponsored projects and internships.
+- Career paths mentioned: software engineer, systems architect, database administrator, application developer, technology consultant.
+
+B.TECH INFORMATION TECHNOLOGY
+- Software development, networking, and cybersecurity.
+- Full-stack development.
+- Cloud computing and DevOps.
+- Career paths mentioned: software developer/engineer, network administrator, cybersecurity analyst, cloud architect, IT consultant.
+
+B.TECH ARTIFICIAL INTELLIGENCE AND DATA SCIENCE
+- Machine learning, deep learning, natural language processing, and computer vision.
+- Hands-on work with real-world datasets and projects.
+- Career paths mentioned: AI engineer, machine learning engineer, data scientist/data analyst, business intelligence developer, research scientist, AI consultant.
+
+B.E. ELECTRONICS AND COMMUNICATION ENGINEERING
+- Analog and digital electronics.
+- Communication systems and signal processing.
+- VLSI design, embedded systems, IoT, and wireless technologies.
+- Career paths mentioned: electronics engineer, communication engineer, VLSI design engineer, embedded systems developer, network engineer.
+
+B.E. ELECTRICAL AND ELECTRONICS ENGINEERING
+- Power systems and electrical machines.
+- Renewable energy technologies.
+- Control systems and instrumentation.
+- Power electronics and drives.
+- Career paths mentioned: electrical engineer, power systems engineer, renewable energy consultant, control systems engineer, maintenance engineer.
+
+B.E. MECHANICAL ENGINEERING
+- Thermal engineering and fluid mechanics.
+- Design and manufacturing processes.
+- CAD/CAM and automation.
+- Materials science and metallurgy.
+- Career paths mentioned: mechanical engineer, design engineer, production engineer, quality assurance engineer, automotive engineer.
+
+CAMPUS AND STUDENT FACILITIES MENTIONED ON THE WEBSITE
+- Campus described as 35 acres.
+- Separate hostels for boys and girls; website mentions capacity of 600+.
+- Modern central library with digital resources.
+- Wi-Fi-enabled campus.
+- Engineering laboratories.
+- AI and Deep Learning Lab.
+- Robotics and IoT Lab.
+- High-performance computing cluster.
+- Computer science labs.
+- Electronics laboratories.
+- Electrical machines laboratory.
+- Mechanical workshops.
+- Physics and Chemistry laboratories.
+- Digital campus infrastructure.
+- Online payment portal.
+- Learning Management System (LMS).
+- Smart classrooms with projectors.
+
+LABORATORY DETAILS LISTED ON THE WEBSITE
+- AI and Deep Learning Lab with high-end computers and machine-learning/deep-learning software.
+- High-performance computing cluster described as 80 cores and 2 servers.
+- Robotics and IoT Lab with robots, Arduino, Raspberry Pi, sensors, and IoT development kits.
+- Computer Science: 5 labs with 250+ computers.
+- Electronics labs with oscilloscopes, signal generators, and spectrum analysers.
+- Electrical Machines Lab with motors, generators, and control panels.
+- Mechanical workshops with CNC machines, lathes, milling machines, and welding equipment.
+
+LIBRARY DETAILS LISTED ON THE WEBSITE
+- More than 27,000 books/volumes.
+- More than 400 national and international journals.
+- Access to IEEE and DELNET resources.
+- Website also mentions 2,000+ e-books and e-journals.
+- Digital section and reading halls.
+Confirm current counts and access timings with the library.
+
+PROFESSIONAL STUDENT CHAPTERS LISTED
+- CSI (Computer Society of India) Institutional and Student Chapter.
+- IEEE Student Branch.
+- NPTEL Local Chapter.
+The website describes technical workshops, coding/project competitions, professional networking, online courses, and certifications.
+
+PLACEMENT AND TRAINING INFORMATION
+The website mentions training in:
+- Aptitude.
+- Technical skills.
+- Soft skills and communication.
+- Mock interviews and group discussions.
+- Resume-building workshops.
+- Industry sessions, hackathons, and project expos.
+
+RECRUITERS NAMED ON THE WEBSITE
+TCS, Infosys, Wipro, Cognizant, Accenture, Amazon, Zoho, HCL, and Tech Mahindra are listed in one section. Another placement section names TCS, Infosys, Amazon, and Google.
+
+PLACEMENT STATISTICS — VERIFY BEFORE ANSWERING
+The website displays different figures in different sections:
+- One section shows 85% placement rate, 30+ on/off-campus drives, highest package ₹7 LPA, and average package ₹3.5 LPA.
+- Another section labelled Placement Statistics (2024-25) shows highest package ₹7 LPA and average package ₹4 LPA, and says 50+ students received multiple offers.
+Because the figures differ, do not give a single average package or placement rate as definitive. Explain that the official website shows different figures and advise contacting the placement office for latest verified statistics.
+
+TRAINING PARTNERS NAMED ON THE WEBSITE
+Capgemini, Qspider, Aram Control System, Zinnov, and Codedect are listed. Confirm current partnerships with the college.
+
+STUDENT SUPPORT SERVICES MENTIONED
+- Faculty mentoring and academic guidance.
+- Career counselling.
+- Personal support and peer groups.
+- Merit-based and need-based scholarship information.
+- Sports quota scholarships and alumni-funded scholarships are mentioned.
+- Transport service; the website mentions 11+ buses.
+- Health centre/medical facility is mentioned.
+Confirm service availability, timings, eligibility, and current details with the college.
+
+ADMISSIONS
+The official website has an “Admission open 2026-27” section and an online admission link. Admission dates, application deadlines, fees, eligibility, documents required, and seat availability must be confirmed through the official website or college office because they can change.
+TNEA counselling code shown on the website: 1226.
+
+EVENTS
+The website displays technical events, seminars, hackathons, placement drives, admission camps, and college celebrations. Event dates and registration details can change; check the official website's Events/Latest Notification section.
+
+ANSWERS WHEN INFORMATION IS MISSING
+If information is not included here, say:
+"Sorry, I couldn't find that information in the available college data. Please check the official college website or contact the college office."
+
+If asked about fees, current admission dates, or current placement figures, do not invent an answer. Direct the student to the official website or college contact numbers above.
+
+SOURCE
+Official website: https://ptleecncet.com/ptleecncet_2026/
